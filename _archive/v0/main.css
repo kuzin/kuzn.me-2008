@@ -1,0 +1,120 @@
+<style type="text/css">
+body {
+	margin-left: 100px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-decoration: none;
+	background-color: #FCFCFC;
+	background-image: url();
+	background-repeat: repeat;
+}
+
+
+
+
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	line-height: normal;
+	font-style: normal;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FF0000;
+	line-height: normal;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #FF0099;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#accordion {
+	margin:20px 0px;
+	
+}
+
+h3.toggler {
+	cursor: pointer;
+	border: 1px solid #f5f5f5;
+	border-right-color: #ddd;
+	border-bottom-color: #ddd;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 10px;
+	background: #dddddd;
+	color: #000000;
+	margin: 0 0 0px 0;
+	padding: 2px 5px 1px;
+	width: 822px;
+	text-align: left;
+	min-width: 822px;
+	
+	
+	
+}
+
+h3:hover {
+	background: #cccccc;
+}
+
+div.element p, div.element h4 {
+margin: auto;
+	padding:4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+blockquote {
+	padding:5px 20px;
+}
+
+page {
+	width: 822 px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+blank {
+	display: none;
+	}

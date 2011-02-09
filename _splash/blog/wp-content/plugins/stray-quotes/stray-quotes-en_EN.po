@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: strayquotes-en\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-25 23:27+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: corpodibacco <corpodibacco@italyisfalling.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: stray_functions.php:178
+msgid "Title of the widget:"
+msgstr "Title of the widget:"
+
+#: stray_functions.php:180
+msgid "Enter here a optional title for the widget."
+msgstr "Enter here a optional title for the widget."
+
+#: stray_pages.php:30
+msgid "Options saved."
+msgstr "Options saved."
+
+#: stray_pages.php:55
+msgid "Options"
+msgstr "Options"
+
+#: stray_pages.php:60
+msgid "Widget Title &amp; Sidebar element Title"
+msgstr "Widget Title &amp; Sidebar element Title"
+
+#: stray_pages.php:62
+#, php-format
+msgid "Valid for the widget functionality only. Leave empty for no title. It can also be changed from the <a href=\"%s\">widget page</a>. If you want to use a title with customized formatting elements use the field below instead."
+msgstr "Valid for the widget functionality only. Leave empty for no title. It can also be changed from the <a href=\"%s\">widget page</a>. If you want to use a title with customized formatting elements use the field below instead."
+
+#: stray_pages.php:65
+msgid "This is valid only when the widget functionality is not being used or when the widget title (field above) is left empty. Leave empty for no title."
+msgstr "This is valid only when the widget functionality is not being used or when the widget title (field above) is left empty. Leave empty for no title."
+
+#: stray_pages.php:68
+msgid "Author, Quote and Source"
+msgstr "Author, Quote and Source"
+
+#: stray_pages.php:70
+msgid "Formatting elements before this group, which comes after the title."
+msgstr "Formatting elements before this group, which comes after the title."
+
+#: stray_pages.php:73
+msgid "Formatting elements after this group."
+msgstr "Formatting elements after this group."
+
+#: stray_pages.php:76
+msgid "Quote only"
+msgstr "Quote only"
+
+#: stray_pages.php:78
+msgid "Formatting elements before the quote."
+msgstr "Formatting elements before the quote."
+
+#: stray_pages.php:81
+msgid "Formatting elements after the quote."
+msgstr "Formatting elements after the quote."
+
+#: stray_pages.php:84
+msgid "Author only"
+msgstr "Author only"
+
+#: stray_pages.php:86
+msgid "Formatting elements before the author."
+msgstr "Formatting elements before the author."
+
+#: stray_pages.php:89
+msgid "Formatting elements after the author."
+msgstr "Formatting elements after the author."
+
+#: stray_pages.php:92
+msgid "Source only"
+msgstr "Source only"
+
+#: stray_pages.php:94
+msgid "Formatting elements before the source."
+msgstr "Formatting elements before the source."
+
+#: stray_pages.php:97
+msgid "Formatting elements after the source."
+msgstr "Formatting elements after the source."
+
+#: stray_pages.php:100
+msgid "Link to"
+msgstr "Link to"
+
+#: stray_pages.php:127
+msgid "No link"
+msgstr "No link"
+
+#: stray_pages.php:130
+msgid "Other options"
+msgstr "Other options"
+
+#: stray_pages.php:132
+msgid "If checked, returns the quote before the author. Otherwise, the author comes first. This won't be considered when spewing all the quotes onto a page (quote will always come first)."
+msgstr "If checked, returns the quote before the author. Otherwise, the author comes first. This won't be considered when spewing all the quotes onto a page (quote will always come first)."
+
+#: stray_pages.php:135
+msgid "If checked, will set \"Visible\" to \"Yes\" for all new quotes."
+msgstr "If checked, will set \"Visible\" to \"Yes\" for all new quotes."
+
+#: stray_pages.php:139
+msgid "Update Options"
+msgstr "Update Options"
+
+#: stray_pages.php:143
+#: stray_pages.php:549
+msgid "Plugin's Homepage"
+msgstr "Plugin's Homepage"
+
+#: stray_pages.php:146
+#: stray_pages.php:552
+msgid "Other plugins"
+msgstr "Other plugins"
+
+#: stray_pages.php:160
+msgid "And strange it is / That nature must compel us to lament / Our most persisted deeds."
+msgstr "And strange it is / That nature must compel us to lament / Our most persisted deeds."
+
+#: stray_pages.php:167
+#, php-format
+msgid ""
+"Hey. Welcome to <strong>Stray Random Quotes.</strong><br />This seems to be your first time visiting this page.\n"
+"\t\tI've just created the database table \"%s1\" to store your quotes, \n"
+"\t\tand added one to start you off.<br />Check out the \n"
+"        <a href=\"%s2\"> Options Page</a> too. Happy quoting!"
+msgstr ""
+"Hey. Welcome to <strong>Stray Random Quotes.</strong><br />This seems to be your first time visiting this page.\n"
+"\t\tI've just created the database table \"%s1\" to store your quotes, \n"
+"\t\tand added one to start you off.<br />Check out the \n"
+"        <a href=\"%s2\"> Options Page</a> too. Happy quoting!"
+
+#: stray_pages.php:183
+#, php-format
+msgid ""
+"Hey. Welcome to <strong>Stray Random Quotes.</strong><br />I just renamed the old tables of quotes \"%s1\" as \"%s2\".<br />\n"
+"\t\tAll your quotes are still there. As you can see the new table comes with all your old quotes and a new optional field,\n"
+"\t\t\"source\". <br />Check out the <a href=\"%s3\"> Options Page</a> too. Happy quoting!"
+msgstr ""
+"Hey. Welcome to <strong>Stray Random Quotes.</strong><br />I just renamed the old tables of quotes \"%s1\" as \"%s2\".<br />\n"
+"\t\tAll your quotes are still there. As you can see the new table comes with all your old quotes and a new optional field,\n"
+"\t\t\"source\". <br />Check out the <a href=\"%s3\"> Options Page</a> too. Happy quoting!"
+
+#: stray_pages.php:235
+msgid "<strong>Failure:</strong> Something went wrong when trying to insert the quote. Try again?"
+msgstr "<strong>Failure:</strong> Something went wrong when trying to insert the quote. Try again?"
+
+#: stray_pages.php:241
+#, php-format
+msgid "Quote id %s successfully added to the database."
+msgstr "Quote id %s successfully added to the database."
+
+#: stray_pages.php:262
+msgid "<strong>Failure:</strong> No quote ID given."
+msgstr "<strong>Failure:</strong> No quote ID given."
+
+#: stray_pages.php:279
+msgid "<strong>Failure:</strong> Something went wrong. Try again?"
+msgstr "<strong>Failure:</strong> Something went wrong. Try again?"
+
+#: stray_pages.php:283
+#, php-format
+msgid "Quote %s updated successfully."
+msgstr "Quote %s updated successfully."
+
+#: stray_pages.php:294
+msgid "<strong>Failure:</strong> No quote ID given. Nothing deleted."
+msgstr "<strong>Failure:</strong> No quote ID given. Nothing deleted."
+
+#: stray_pages.php:307
+#, php-format
+msgid "Quote %s deleted successfully"
+msgstr "Quote %s deleted successfully"
+
+#: stray_pages.php:311
+msgid "<strong>Failure:</strong> Nothing deleted."
+msgstr "<strong>Failure:</strong> Nothing deleted."
+
+#: stray_pages.php:328
+msgid "Something is wrong. No quote ID from the query string."
+msgstr "Something is wrong. No quote ID from the query string."
+
+#: stray_pages.php:338
+#: stray_pages.php:423
+msgid "Something is wrong. I can't find a quote linked up with that ID."
+msgstr "Something is wrong. I can't find a quote linked up with that ID."
+
+#: stray_pages.php:378
+#: stray_pages.php:461
+msgid "Quote:"
+msgstr "Quote:"
+
+#: stray_pages.php:382
+#: stray_pages.php:465
+msgid "Author:"
+msgstr "Author:"
+
+#: stray_pages.php:387
+#: stray_pages.php:470
+msgid "Source:"
+msgstr "Source:"
+
+#: stray_pages.php:392
+#: stray_pages.php:475
+msgid "Visible:"
+msgstr "Visible:"
+
+#: stray_pages.php:393
+#: stray_pages.php:477
+msgid "Yes"
+msgstr "Yes"
+
+#: stray_pages.php:394
+#: stray_pages.php:479
+msgid "No"
+msgstr "No"
+
+#: stray_pages.php:397
+msgid "go back to the list of quotes"
+msgstr "go back to the list of quotes"
+
+#: stray_pages.php:398
+#: stray_pages.php:482
+msgid "Save quote"
+msgstr "Save quote"
+
+#: stray_pages.php:409
+msgid "Add new"
+msgstr "Add new"
+
+#: stray_pages.php:416
+msgid "The Quote ID seems to be invalid."
+msgstr "The Quote ID seems to be invalid."
+
+#: stray_pages.php:490
+msgid "Manage"
+msgstr "Manage"
+
+#: stray_pages.php:505
+msgid "Quote"
+msgstr "Quote"
+
+#: stray_pages.php:506
+msgid "Author"
+msgstr "Author"
+
+#: stray_pages.php:507
+msgid "Source"
+msgstr "Source"
+
+#: stray_pages.php:508
+msgid "Visible"
+msgstr "Visible"
+
+#: stray_pages.php:532
+msgid "Edit"
+msgstr "Edit"
+
+#: stray_pages.php:538
+msgid ""
+"You are about to delete this quote\\n"
+"\\'Cancel\\' to stop, \\'OK\\' to delete.'"
+msgstr ""
+"You are about to delete this quote\\n"
+"\\'Cancel\\' to stop, \\'OK\\' to delete.'"
+
+#: stray_pages.php:539
+msgid "Delete"
+msgstr "Delete"
+
+#: stray_pages.php:544
+msgid "You haven't entered any quotes yet."
+msgstr "You haven't entered any quotes yet."
+
+#: stray_quotes.php:102
+msgid "Quotes"
+msgstr "Quotes"
+
+#~ msgid ""
+#~ "These options can be used to customize the appearance of the quotes. "
+#~ "Click on the help icons <img src=\"%s/help.png\" alt=\"click for help\" "
+#~ "border=\"0\" style=\"vertical-align:middle\" /> to get help."
+#~ msgstr ""
+#~ "These options can be used to customize the appearance of the quotes. "
+#~ "Click on the help icons <img src=\"%s/help.png\" alt=\"click for help\" "
+#~ "border=\"0\" style=\"vertical-align:middle\" /> to get help."
+#~ msgid "Title"
+#~ msgstr "Title"
+#~ msgid "Widget"
+#~ msgstr "Widget"
+#~ msgid "Sidebar element"
+#~ msgstr "Sidebar element"
+#~ msgid "Before"
+#~ msgstr "Before"
+#~ msgid ""
+#~ "Here you can enter elements or open tags that go before the group made by "
+#~ "quote source and author. It comes after the title."
+#~ msgstr ""
+#~ "Here you can enter elements or open tags that go before the group made by "
+#~ "quote source and author. It comes after the title."
+#~ msgid "After"
+#~ msgstr "After"
+#~ msgid ""
+#~ "Here you enter elements that go right after the group made by quote "
+#~ "source and author,  \n"
+#~ "        or close the tags that you opened before it."
+#~ msgstr ""
+#~ "Here you enter elements that go right after the group made by quote "
+#~ "source and author,  \n"
+#~ "        or close the tags that you opened before it."
+#~ msgid "Here you can enter elements or open tags that go before the quote."
+#~ msgstr "Here you can enter elements or open tags that go before the quote."
+#~ msgid ""
+#~ "Here you can enter elements or close the tags that you opened before the "
+#~ "quote."
+#~ msgstr ""
+#~ "Here you can enter elements or close the tags that you opened before the "
+#~ "quote."
+#~ msgid "Here you can enter elements or open tags that go before the author."
+#~ msgstr "Here you can enter elements or open tags that go before the author."
+#~ msgid ""
+#~ "Here you can enter elements or close the tags that you put before the "
+#~ "author."
+#~ msgstr ""
+#~ "Here you can enter elements or close the tags that you put before the "
+#~ "author."
+#~ msgid ""
+#~ "Here you can enter elements or open tags that go before the source of the "
+#~ "quote."
+#~ msgstr ""
+#~ "Here you can enter elements or open tags that go before the source of the "
+#~ "quote."
+#~ msgid ""
+#~ "Here you can enter elements or close the tags that you put before the "
+#~ "source of the quote."
+#~ msgstr ""
+#~ "Here you can enter elements or close the tags that you put before the "
+#~ "source of the quote."
+#~ msgid ""
+#~ "Add a google or Wikipedia link to the Author element.<br/>(If you choose "
+#~ "wikipedia you can also select a language. You should also check if a page "
+#~ "for any of your authors or sources really exists.)"
+#~ msgstr ""
+#~ "Add a google or Wikipedia link to the Author element.<br/>(If you choose "
+#~ "wikipedia you can also select a language. You should also check if a page "
+#~ "for any of your authors or sources really exists.)"
+#~ msgid "Visible by default:"
+#~ msgstr "Visible by default:"
+

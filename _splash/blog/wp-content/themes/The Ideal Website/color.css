@@ -1,0 +1,153 @@
+<?php
+/*
+  	THE SOFTWARE IS PROVIDED "AS-IS". NO WARRANTIES OF
+   	ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO,
+   	IMPLIED WARRANTIES, OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE
+   	WITH RESPECT TO THE SOFTWARE ARE MADE AS TO IT OR ANY MEDIUM IT
+   	MAY BE ON. AUTHOR DOES NOT WARRANT THAT THE OPERATION OF THE
+   	SOFTWARE WILL BE ERROR FREE OR MEET ANY REQUIREMENTS. THE
+   	WARRANTY SET FORTH ABOVE IS IN LIEU OF ALL OTHER WARRANTIES
+   	WHETHER ORAL OR WRITTEN. NO ONE BUT AUTHOR IS AUTHORISED TO MAKE
+   	MODIFICATIONS OR ADDITIONS TO THIS WARRANTY. 
+
+	BY USING THIS SOFTWARE YOU AGREE TO THE LICENCE AGREEMENT LOCATED IN LICENCE.TXT.
+	IF YOU DID NOT RECEIVE A COPY PLEASE EMAIL OLIVER@INFORMATIONARCHITECTS.JP.
+	
+	COPYRIGHT 2007 INFORMATION ARCHITECTS K.K, JAPAN. 
+	
+*/
+?>
+
+body {
+	border-top:	5px solid #666;
+	background-color:	#fff;
+	color:	#333;
+}
+strong {
+	font-weight: bold;
+}
+a {
+	
+	color:	#0099CC;
+}
+
+a:visited {
+	color:	#333;
+}
+
+a:hover {
+	color:	#333;
+
+}
+#header {
+	background:	#fff;
+}
+#tagline {
+	color:	#000;
+}
+#s {
+	border:	2px solid #999;
+}
+
+h1 {
+	color:	#333;
+}
+h1 a {
+	color:	#0099CC;
+}
+h1 span.author {
+	color:	#666;
+}
+h2 {
+	color:	#666;
+}
+
+h2 a {
+	color:	#0099CC;
+}
+h2 span.author {
+	color:	#666;
+}
+h3 {
+	color:	#333;
+}
+h4 {
+	color:	#666;
+}
+h5 {
+	color:	#666;
+}
+h5 a:visited {
+	color:	#666;
+}
+h5 a:hover {
+	color:	#333;
+}
+h6 {
+	color:	#666;
+}
+#menu .current_page_item a {
+	color:	#333;
+}
+#menu .current_page_item a:visited {
+	color:	#333;
+}
+#menu .current_page_item li a {
+	color:	#0099CC;
+}
+#menu .current_page_item li a:visited {
+	color:	#0099CC;
+}
+div.comment {
+	color:	#aaa;
+}
+#legalese {
+	color:	#333;
+}
+a:hover {
+	color:	#000000;
+}
+ul li a:hover {
+	color:	#000000;
+}
+ol li a:hover {
+	color:	#000000;
+}
+.comm {
+	color:	#333;
+}
+.commentAuthor {
+	color:	#666
+}
+.commentAuthor a {
+	color:	#666;
+}
+#footer {
+	color:	#fff;
+	background-color:	#0099CC;
+}
+#links {
+	color:	#333;
+	background-color:	#0099CC;
+}
+#links a, #links a:link, #links a:visited {
+	color:	#333;
+}
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h4 a:visited, #footer h4 a:link, #footer h5, #footer h6, #footer a, #footer p, #footer ul li a, #linklist a:link, #linklist a:visited, #linklist a{
+	color:	#fff;
+}
+#comments a, #comments a:link, #comments a:hover {
+	color:	#333;
+}
+ul li a.selected {
+	color:	#333;
+}
+#menu a:visited {
+	color:	#0099CC;
+}
+#menu a:visited.selected {
+	color:	#333;
+}
+#menu a.selected {
+	color:	#333;
+}

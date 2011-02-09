@@ -1,0 +1,137 @@
+body {
+	border-top:	5px solid #666;
+	background-color:	#101010;
+	color:	#efefef;
+}
+strong {
+	color:	red;
+}
+a {
+	
+	color:	red;
+}
+
+a:visited {
+	color:	#efefef;
+}
+
+a:hover {
+	color:	white;
+
+}
+#header {
+	background:	#000;
+}
+#tagline {
+	color:	red;
+}
+#s {
+	border:	2px solid #999;
+}
+#searchsubmit {
+	background-color:	#efefef;
+	border:	2px solid #efefef;
+}
+
+h1 {
+	color:	#fafafa;
+}
+h1 a {
+	color:	red;
+}
+h1 span.author {
+	color:	white;
+}
+h2 {
+	color:	#efefef;
+}
+
+h2 a {
+	color:	red;
+}
+h2 span.author {
+	color:	white;
+}
+h3 {
+	color:	#efefef;
+}
+h4 {
+	color:	#efefef;
+}
+h5 {
+	color:	#efefef;
+}
+h5 a:visited {
+	color:	#efefef;
+}
+h5 a:hover {
+	color:	white;
+}
+h6 {
+	color:	ccc;
+}
+#menu .current_page_item a {
+	color:	#fafafa;
+}
+#menu .current_page_item a:visited {
+	color:	#fafafa;
+}
+#menu .current_page_item li a {
+	color:	red;
+}
+#menu .current_page_item li a:visited {
+	color:	red;
+}
+div.comment {
+	color:	white;
+}
+#legalese {
+	color:	white;
+}
+a:hover {
+	color:	white;
+}
+ul li a:hover {
+	color:	white;
+}
+ol li a:hover {
+	color:	white;
+}
+.comm {
+	color:	white;
+}
+.commentAuthor {
+	color:	white;
+}
+.commentAuthor a {
+	color:	white;
+}
+#footer {
+	color:	#fff;
+	background-color:	#cc0000
+}
+#links {
+	color:	#fff;
+	background-color:	#cc0000
+}
+#links a, #links a:link, #links a:visited {
+	color:	#fff;
+}
+#footer h1,#footer h2,#footer h3,#footer h4,#footer h5,#footer h6 {
+	color:	white;
+}
+#comments, #comments a, #comments a:link, #comments a:hover {
+	color:	white;
+}
+ul li a.selected {
+	color:	white;
+}
+#menu a:visited {
+	color:	red;
+}
+#menu a:visited.selected {
+	color:	white;
+}
+#menu a.selected {
+	color:	white;
+}

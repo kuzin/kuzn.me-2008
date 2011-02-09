@@ -1,0 +1,265 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Joseph Dolson
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-to-twitter\n"
+"POT-Creation-Date: 2008-12-20 22:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: wp-to-twitter-manager.php:32
+msgid "Set your Twitter login information and Cli.gs API to use this plugin!"
+msgstr ""
+
+#: wp-to-twitter-manager.php:38
+msgid "WP to Twitter Errors Cleared"
+msgstr ""
+
+#: wp-to-twitter-manager.php:42
+msgid ""
+"Cli.gs request failed! We couldn't shrink that URL, so we attached the "
+"normal URL to your Tweet."
+msgstr ""
+
+#: wp-to-twitter-manager.php:45
+msgid ""
+"Sorry! I couldn't get in touch with the Twitter servers. Your tweet has been "
+"stored in a custom field attached to your post, so you can Tweet it manually "
+"if you wish!"
+msgstr ""
+
+#: wp-to-twitter-manager.php:47
+msgid ""
+"Sorry! I couldn't get in touch with the Twitter servers to post your new "
+"link! You'll have to post it manually, I'm afraid."
+msgstr ""
+
+#: wp-to-twitter-manager.php:84
+msgid "Twitter login and password updated."
+msgstr ""
+
+#: wp-to-twitter-manager.php:86
+msgid "You need to provide your twitter login and password!"
+msgstr ""
+
+#: wp-to-twitter-manager.php:91
+msgid "Cligs API Key Updated"
+msgstr ""
+
+#: wp-to-twitter-manager.php:93
+msgid ""
+"Cli.gs API Key not added - <a href='http://cli.gs/user/api/'>get one here</"
+"a>!"
+msgstr ""
+
+#: wp-to-twitter-manager.php:108
+msgid ""
+"Your server does not support <code>fputs</code>, the function used to send "
+"information to Twitter."
+msgstr ""
+
+#: wp-to-twitter-manager.php:112
+msgid ""
+"Your server does not support the <code>file_get_contents</code> or "
+"<code>cURL</code> functions which this plugin uses to send information to "
+"Cli.gs. At least one of the above is required for this plugin to work."
+msgstr ""
+
+#: wp-to-twitter-manager.php:153
+msgid "This plugin will not work in your server environment."
+msgstr ""
+
+#: wp-to-twitter-manager.php:172
+msgid "Why are you seeing this field?"
+msgstr ""
+
+#: wp-to-twitter-manager.php:174
+msgid ""
+"One or more of your last posts has failed to send it's status update to "
+"Twitter. Your Tweet has been saved in the custom meta data for your post, "
+"and you can re-Tweet it at your leisure."
+msgstr ""
+
+#: wp-to-twitter-manager.php:177
+msgid ""
+"The query to the Cli.gs API failed, and your URL was not shrunk. The normal "
+"post URL was attached to your Tweet."
+msgstr ""
+
+#: wp-to-twitter-manager.php:188
+msgid "WP to Twitter Options"
+msgstr ""
+
+#: wp-to-twitter-manager.php:190
+msgid ""
+"For any update field, you can use the codes <code>#title#</code> for the "
+"title of your blog post or <code>#blog#</code> for the title of your blog! "
+"Given the character limit for Twitter, you may not want to include your blog "
+"title."
+msgstr ""
+
+#: wp-to-twitter-manager.php:196
+msgid "Wordpress to Twitter Publishing Options"
+msgstr ""
+
+#: wp-to-twitter-manager.php:199
+msgid "Update Twitter when new Wordpress Pages are published"
+msgstr ""
+
+#: wp-to-twitter-manager.php:203
+msgid "Update Twitter when the new post is published"
+msgstr ""
+
+#: wp-to-twitter-manager.php:206
+msgid "Text for this Twitter update"
+msgstr ""
+
+#: wp-to-twitter-manager.php:210 wp-to-twitter-manager.php:222
+msgid "Provide link to blog?"
+msgstr ""
+
+#: wp-to-twitter-manager.php:215
+msgid "Update Twitter when an old post has been edited"
+msgstr ""
+
+#: wp-to-twitter-manager.php:227
+msgid "Update Twitter when you post a Blogroll link"
+msgstr ""
+
+#: wp-to-twitter-manager.php:230
+msgid "Use <strong>link title</strong> for Twitter updates"
+msgstr ""
+
+#: wp-to-twitter-manager.php:230
+msgid "Use <strong>link description</strong> for Twitter updates"
+msgstr ""
+
+#: wp-to-twitter-manager.php:234
+msgid "Text for this Twitter update (used if above choice isn't available.)"
+msgstr ""
+
+#: wp-to-twitter-manager.php:240
+msgid "Set default Tweet status to 'No.'"
+msgstr ""
+
+#: wp-to-twitter-manager.php:241
+msgid ""
+"Twitter updates can be set on a post by post basis. By default, posts WILL "
+"be posted to Twitter. Check this to change the default to NO."
+msgstr ""
+
+#: wp-to-twitter-manager.php:245
+msgid ""
+"Send Twitter Updates on remote publication (Post by Email or XMLRPC Client)"
+msgstr ""
+
+#: wp-to-twitter-manager.php:252
+msgid "Save WP->Twitter Options"
+msgstr ""
+
+#: wp-to-twitter-manager.php:258
+msgid "Your Twitter account details"
+msgstr ""
+
+#: wp-to-twitter-manager.php:263
+msgid "Your Twitter username:"
+msgstr ""
+
+#: wp-to-twitter-manager.php:267
+msgid "Your Twitter password:"
+msgstr ""
+
+#: wp-to-twitter-manager.php:271
+msgid "Save Twitter Login Info"
+msgstr ""
+
+#: wp-to-twitter-manager.php:271
+msgid ""
+"&raquo; <small>Don't have a Twitter account? <a href='http://www.twitter."
+"com'>Get one for free here</a>"
+msgstr ""
+
+#: wp-to-twitter-manager.php:275
+msgid "Your Cli.gs account details"
+msgstr ""
+
+#: wp-to-twitter-manager.php:280
+msgid ""
+"Your Cli.gs <abbr title='application programming interface'>API</abbr> Key:"
+msgstr ""
+
+#: wp-to-twitter-manager.php:286
+msgid ""
+"Don't have a Cli.gs account or Cligs API key? <a href='http://cli.gs/user/"
+"api/'>Get one free here</a>! You'll need an API key in order to associate "
+"the Cligs you create with your Cligs account."
+msgstr ""
+
+#: wp-to-twitter-manager.php:298
+msgid "Need help?"
+msgstr ""
+
+#: wp-to-twitter-manager.php:299
+msgid ""
+"Visit the <a href='http://www.joedolson.com/articles/wp-to-twitter/'>WP to "
+"Twitter plugin page</a>."
+msgstr ""
+
+#: wp-to-twitter.php:368 wp-to-twitter.php:375
+msgid "WP to Twitter"
+msgstr ""
+
+#: wp-to-twitter.php:381
+msgid "Twitter Post"
+msgstr ""
+
+#: wp-to-twitter.php:385
+msgid ""
+" characters. Twitter posts are a maximum of 140 characters; if your Cli.gs "
+"URL is appended to the end of your document, you have 119 characters "
+"available."
+msgstr ""
+
+#: wp-to-twitter.php:385
+msgid "Get Support"
+msgstr ""
+
+#: wp-to-twitter.php:388
+msgid "Don't Tweet this post."
+msgstr ""
+
+#: wp-to-twitter.php:429
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "WP to Twitter"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://www.joedolson.com/articles/wp-to-twitter/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"Updates Twitter when you create a new blog post or add to your blogroll using "
+"Cli.gs. With a Cli.gs API key, creates a clig in your Cli.gs account with the "
+"name of your post as the title."
+msgstr ""
+
+#. Author of an extension
+msgid "Joseph Dolson"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.joedolson.com/"
+msgstr ""

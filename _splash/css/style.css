@@ -1,0 +1,179 @@
+@import url('reset.css');
+@import url('fonts.css');
+@media only screen and (max-device-width: 460px) {
+  .navigation {
+    display: none;
+  }
+}
+
+/* 
+& COMMON 
+*/
+
+html {
+	min-height: 				100%;
+}
+
+* html {
+	min-height: 				100%;
+}
+
+body {
+	background: 				url(../assets/img/bg.png) repeat rgb(255,255,255);
+	text-align: 				center;
+}
+
+
+/*
+$ MOBILE
+*/
+
+
+
+
+/*
+& STRUCTURE
+*/
+
+div#container {
+	width: 						460px;
+	margin: 					0 auto;
+}
+
+div#header {
+	width: 						460px;
+	background: 				url(../assets/img/header_up.png) no-repeat center bottom;
+	height: 					170px;
+	
+	margin-bottom: 				100px;
+}
+
+.bubble {
+	background: 				#fff;
+	-moz-border-radius: 		10px;
+	-webkit-border-radius:		10px;
+	opacity: 					0.8;
+	margin-bottom: 				15px;
+	-webkit-box-shadow: 		0 0 4px #bbb;
+	-moz-box-shadow: 			0 0 4px #bbb;	
+}
+
+.bubble:hover {	
+	-webkit-box-shadow: 		0 0 8px rgb(51,102,153);
+	-moz-box-shadow: 			0 0 8px rgb(51,102,153);
+}
+
+div#bubble_one,
+div#bubble_two,
+div#bubble_work,
+div#bubble_twit {	
+	font-family: 				'EauSansBook';
+	font-size: 					13px;
+	font-weight: 				100;
+	padding: 					14px;
+	color: 						#333;
+	
+	
+}
+
+div.bubble p {
+	margin: 					0;
+	padding: 					0;
+}
+
+div#bubble_work {
+	width: 						368px;
+	text-align: 				left;
+	float: 						right;
+}
+
+div#work_icon {
+	background: 				url(../assets/img/hire.png) no-repeat left center;
+	height: 					66px;
+	width: 						100%;
+}
+
+div#bubble_twit {
+	
+	margin-top: 				16px;
+	width: 						372px;
+	text-align: 				left;
+	
+}
+
+div#twit_icon {
+	background: 				url(../assets/img/bg_twit.png) no-repeat right center;
+	height: 					66px;
+	width: 						100%;
+}
+
+div#copyright {
+	font-family: 				'EauSansBook';
+	color: 						#aaa;
+	margin: 					0 auto;
+	width: 						460px;
+}
+
+/*
+& FONTS
+*/
+
+.red {
+	color: 						rgb(204,51,51);
+	font-family: 				'EauSansBook';
+	font-size: 					13px;
+	font-weight: 				100;
+}
+
+a:link,
+a:visited,
+a:active {
+	color: 						rgb(51,102,153);
+	text-decoration: 			none;
+	cursor: 					pointer;
+}
+
+a:hover {
+	text-decoration: 			underline;
+}
+
+span.amp {
+	font-family: 				'Baskerville';
+	font-style: 				italic;
+}
+
+hr {
+	background-color: 			#ddd;
+	height: 					1px;
+	border: 					none;
+}
+
+.name {
+	font-size: 					18px;
+}
+
+
+/*
+% TWEETS
+*/
+
+small {
+	font-style:					italic; 
+	display:					block;
+}
+
+#tweets li {
+	font-size:					11px;
+	list-style-type:			none;
+	padding: 					0;
+}
+
+h4 {
+	font-family: 				'EauSansBook';
+	font-weight:				normal;
+	color: 						rgb(51,102,153);
+	font-size: 					14px;
+	padding: 					0;
+	margin: 					0;
+	margin-top:  				3px;
+}

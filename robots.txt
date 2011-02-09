@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /external/
+Disallow: /_mech/
+Disallow: /_archive/
+Disallow: /_notes/
+Disallow: /_splash/
+Allow: /

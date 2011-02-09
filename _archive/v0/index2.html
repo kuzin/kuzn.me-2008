@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<meta name="author" content=" Toya D. - http://www.nyokiglitter.com" />
+<title>Basic Accordion</title>
+<style type="text/css">
+
+body{width: 865px; margin: 0 auto; font-size: 93%; font-family: "arial";}
+h4{margin: 5px;}
+p{margin: 0; padding: 5px;}
+
+div.atStart{background: #ddd; padding: 10px;}
+h3.atStart{color: #0098cd;}
+
+</style>
+<script type="text/javascript" src="../mootools.js"></script>
+<script type="text/javascript">
+window.addEvent('domready', function() { 
+	var accordion = new Accordion('h3.atStart', 'div.atStart');
+});
+</script>
+</head>
+<body>
+	<div id="header"></div>
+	<div id="main-content">
+		<h2>Standard Accordion</h2>
+ 
+		<div id="accordion">
+		
+			<h3 class="toggler atStart">Section 1</h3>
+			<div class="element atStart">
+				<h4>First</h4>
+			<h4 align="center"><img src="http://www.mjavs.com/images/'eastern' by mjavs.com.jpg" alt="'eastern' by mjavs.com" width="865" height="304" /></h4>
+	        <p align="center"><img src="http://www.mjavs.com/images/dotted-line.jpg" width="865" height="38" /></p>
+	        <p align="center"><img src="http://www.mjavs.com/images/'dream on' by mjavs.com.jpg" alt="'dream on' by mjavs.com" width="865" height="408" /></p>
+	        <p align="center"><em><img src="http://www.mjavs.com/images/dotted-line.jpg" width="865" height="38" /></em></p>
+	        <p align="center"><img src="http://www.mjavs.com/images/'same old nu lifestyle' by mjavs.com.jpg" alt="'same old nu lifestyle' by mjavs.com" width="865" height="410" /></p>
+ 			</div>
+ 
+			<h3 class="toggler atStart">Section 2</h3>
+			<div class="element atStart">
+				<h4>Second</h4>
+ 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+ 
+			<h3 class="toggler atStart">Section 3</h3>
+			<div class="element atStart">
+				<h4>Third</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div id="footer">
+		<p>&copy; 2007-2008 Nyokiglitter, All Rights Reserved.</p>
+	</div>
+</body>
+</html>

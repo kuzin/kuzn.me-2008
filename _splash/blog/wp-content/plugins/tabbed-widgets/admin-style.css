@@ -1,0 +1,38 @@
+.tw-settings {}
+.tw-settings .submit { clear:both; }
+.tw-settings p, .tw-settings li, .tw-settings dl, .tw-settings dd, .tw-settings dt { line-height:1.1em; }
+.tw-settings fieldset { }
+.tw-settings fieldset input { padding:0.2em; }
+.tw-settings fieldset legend { padding:0; margin:0; font-size:1.2em; }
+.tw-settings .widget-fieldset { background:#eee; margin:1em 0 2em; width:45%;  border:1px solid #ccc; padding:0 1em 1.5em 1em; float:left; margin-right:1em; -moz-border-radius:5px; }
+.tw-settings .widget-fieldset p { margin:0.5em 0; }
+.tw-settings .widget-fieldset legend { margin:0; font-size:1.2em; padding:0 0.25em; background:#eee; padding:0.3em 0.5em; margin-left:-0.5em; -moz-border-radius:5px; }
+
+.tw-settings .widget-fieldset .tw-widget-title { font-weight:bold; }
+.tw-settings .widget-fieldset .tw-title { margin:1em 0 1em 0; padding:0.5em; background:#C5ED70; }
+.widget-wrapper { float:left; width:100%; clear:both; }
+
+.tw-settings .widget-fieldset select { width:12em; }
+.tw-settings .widget-fieldset .tw-each-tab { float:left; width:100%; clear:both; margin-bottom:0.25em; }
+.tw-settings .widget-fieldset .tw-each-tab .tw-active { font-weight:normal; }
+.tw-settings .widget-fieldset .tw-rotateoptions { float:left; width:100%; clear:both; }
+.tw-settings .widget-fieldset .tw-rotateoptions p.inputfields { margin: 0 7em 0 0; float:none; width:auto; position:absolute; }
+.tw-settings .widget-fieldset .tw-rotateoptions .info { float:right; width:7em; font-size:0.8em; margin:0; }
+
+.tw-settings .tw-in-widget-list { float:left; width:40%; margin-right:-30em; }
+.tw-settings .tw-in-widget-list select { width:70%; } 
+.tw-settings .tw-in-widget-title { float:right; width:54%; }
+.tw-settings .tw-in-widget-title input { width:75%; }
+
+.tw-settings label.label-start { float:left; margin-right:0.5em; margin-top:0.25em; }
+
+.tw-settings p.tw-style-type { float:left; width:100%; clear:both; padding:0.5em 0 0.5em; margin-top:1em; border-top:thick solid #ddd; border-bottom:1px solid #ddd; }
+.tw-settings p.tw-style-type input { margin-left:0.5em; vertical-align:middle; }
+
+.tw-settings label.tw-active { font-weight:bold; }
+.tw-settings label.tw-active.label-tabs { color:#066; }
+.tw-settings label.tw-active.label-accordion { color:#900; }
+.tw-settings fieldset p.submit { margin:1em 0 0 0; padding:0; float:right; }
+
+.tw-settings .tw-donate { float:right; width:30em; line-height:1.5em; padding-left:1em; margin-left:1em; border-left:1px solid #ddd; }
+.tw-settings .tw-donate img { float:right; margin:0.5em 0 0.5em 0.5em; }

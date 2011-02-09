@@ -1,0 +1,27 @@
+
+/*                                        SIMPLE CSS RESET
+__________________________________________________________
+*/
+
+	html, body, div, span, h1, h2, h3, h4, h5, h6,
+	p, blockquote, a, em, strong, img, ol, ul, li,
+	table, tr, td, form, select {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font-weight: normal;
+	}
+
+	a img {
+		border: none;
+	}
+	
+	.clear {
+		clear: both;
+		display: block;
+		width: 0;
+		height: 0; 
+		font-size: 0;
+		overflow: hidden;
+	}

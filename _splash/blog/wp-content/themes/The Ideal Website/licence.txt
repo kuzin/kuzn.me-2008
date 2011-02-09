@@ -1,0 +1,220 @@
+   	
+   	SOFTWARE LICENCE AGREEMENT for Information Architects K.K iAJapan Wrodpress template version 1.0
+
+   	This Software Licence Agreement (hereinafter referred to as
+   	"AGREEMENT") is a legal agreement between you, and Information Architects K.K.
+   	(hereinafter referred to as "AUTHOR") for the wordpress theme
+   	entitled "The Ideal Website" (Wordpress template) including any
+   	enclosed documentation and/or accompanying items (hereinafter
+   	referred to as "SOFTWARE"). This AGREEMENT states the terms and
+   	conditions upon which AUTHOR offers to licence the SOFTWARE.
+
+   	This agreement is binding upon you as well as anyone taking any
+   	action with regard to your copy of the SOFTWARE at your direction
+   	or not. This applies to any third party as well.
+
+   	You should carefully read the following terms and conditions
+   	before using this SOFTWARE. Unless you have a different licence
+   	AGREEMENT signed by AUTHOR your use of this SOFTWARE indicates
+   	your acceptance of this licence AGREEMENT and warranty.
+
+   	By installing this SOFTWARE, running or
+   	copying it to a computer, you agree to be bound by the terms and
+   	conditions of this AGREEMENT. 
+   	
+   	TERMS AND CONDITIONS
+
+   	1.
+
+   	LICENCE. 
+   	
+ 	For any use, subject to the terms and
+   	conditions of this AGREEMENT, AUTHOR grants you the limited right
+   	to use the SOFTWARE on up to 5 domains. If you use the SOFTWARE on more than this amount
+   	you must purchase additional copies of the SOFTWARE for each additional domain. 
+
+   	Unregistered use of the SOFTWARE is in violation of Japan and international
+   	copyright laws.
+
+   	2.
+
+   	COPYRIGHT. 
+   	
+   	The SOFTWARE is owned and copyrighted by AUTHOR and is
+   	protected by Japan copyright laws, other copyright laws
+   	and international treaties. AUTHOR reserves all the rights
+   	regarding the SOFTWARE. AUTHOR authorises usage of the SOFTWARE
+   	only in accordance with the terms and conditions stated in this
+   	AGREEMENT. You may not remove any copyright or proprietary
+   	notices from the SOFTWARE. 
+   	
+   	3.
+
+   	GENERAL USAGE. 
+   	
+   	Neither you, anyone at your direction, nor any
+   	third party, shall take the following actions with regard to the
+   	SOFTWARE, or any portion thereof to modify, change, decompile,
+   	recompile, disassemble, reverse engineer, adapt, create
+   	derivative works, translate or reproduce the SOFTWARE. In any
+   	event, you will notify AUTHOR of any information derived from
+   	reverse engineering or such activities and the results thereof
+   	will constitute confidential information of AUTHOR which may be
+   	used only in connection with the SOFTWARE. If you seek interface
+   	information you should initially approach AUTHOR. 
+   	
+   	4.
+
+   	COMMERCIAL USAGE & EXPLOITATION. 
+   	
+   	Under no circumstances shall
+   	you, the end-user, be permitted, allowed or authorised to
+   	commercially use or commercially exploit the SOFTWARE, or any
+   	portion thereof. Neither you, anyone at your direction nor any
+   	third party shall take the following actions with regard to the
+   	SOFTWARE, or any portion thereof to sell, rent, lend, lease,
+   	commercially use or commercially exploit the SOFTWARE. 
+   	
+   	5.
+
+   	DISTRIBUTION. 
+   	
+   	Further distribution of the SOFTWARE is forbidden without prior 
+   	written consent of the AUTHOR.	
+   	
+   	6.
+
+   	UPDATES. 
+   	
+   	AUTHOR reserves the right to update the contents of the
+   	SOFTWARE and its associated files, documentation , licence terms
+   	and/or other elements, at its discretion from time to time,
+   	without the consent of or any obligation to, any licensed users
+   	or distributors. 
+   	
+   	7.
+
+   	NO WARRANTY. 
+   	
+   	THE SOFTWARE IS PROVIDED "AS-IS". NO WARRANTIES OF
+   	ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO,
+   	IMPLIED WARRANTIES, OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE
+   	WITH RESPECT TO THE SOFTWARE ARE MADE AS TO IT OR ANY MEDIUM IT
+   	MAY BE ON. AUTHOR DOES NOT WARRANT THAT THE OPERATION OF THE
+   	SOFTWARE WILL BE ERROR FREE OR MEET ANY REQUIREMENTS. THE
+   	WARRANTY SET FORTH ABOVE IS IN LIEU OF ALL OTHER WARRANTIES
+   	WHETHER ORAL OR WRITTEN. NO ONE BUT AUTHOR IS AUTHORISED TO MAKE
+   	MODIFICATIONS OR ADDITIONS TO THIS WARRANTY. 
+   	
+   	8.
+
+   	REMEDIES. 
+   	
+   	AUTHOR WILL NOT BE LIABLE AND WILL PROVIDE NO REMEDY
+   	FOR LOST DATA, LOST SAVINGS, LOST PROFITS, SPECIAL, INCIDENTAL,
+   	CONSEQUENTIAL, PUNITIVE, INDIRECT OR ANY OTHER DAMAGES ARISING
+   	FROM NEGLIGENCE, STRICT LIABILITY, BREACH OF WARRANTY, BREACH OF
+   	CONTACT, EVEN AFTER NOTICE OF THE POSSIBILITY OF SUCH DAMAGES OR
+   	FOR ANY CLAIM BY ANY OTHER PARTY. 
+   	
+   	9.
+
+   	TRANSFER. 
+   	
+   	Nether this AGREEMENT nor any part or portion of it
+   	shall be assigned or sublicensed, except as described herein. 
+   	
+   	10.
+
+   	TERM. 
+   	
+   	This licence and your right to use the SOFTWARE terminates
+   	automatically if you violate any part of this AGREEMENT without
+   	notice from AUTHOR. You can also terminate this licence at any
+   	time. You agree upon termination to destroy all copies of the
+   	SOFTWARE immediately. Upon termination AUTHOR may also enforce
+   	any rights provided by law. 
+   	
+   	11.
+
+   	INDEMNIFICATION. 
+   	
+   	You hereby agree to indemnify, hold harmless and
+   	defend AUTHOR, his family, relatives, licensees, sub-licensees,
+   	distributors and lawyers against any and all damages, losses,
+   	claims, courses of action, lawsuits, liabilities, judgements and
+   	all expenses arising from, resulting to, or in connection with a
+   	breach of this AGREEMENT by you and arising from, relating to, or
+   	in connection with your use or non-use of the SOFTWARE. 
+   	
+   	12.
+
+   	RESTRICTED RIGHTS. 
+   	
+   	The SOFTWARE and any related documentation is
+   	provided with restricted and limited rights. Use, duplication and
+   	disclosure by U.S. Government is subject to restrictions as set
+   	forth in the subdivision (b)(3)(ii) of the Rights in Technical
+   	Data and Computer Software Clause at 252.227-7013. If you are
+   	using this software outside the U.S. you agree to be bound by the
+   	applicable law in your country. 
+   	
+   	13.
+
+   	SURVIVAL. 
+   	
+   	1.
+
+   	Should any provision of this AGREEMENT be held to be void,
+   	invalid, unenforceable or illegal by a court, the validity and
+   	enforceability of the other provisions shall not be affected
+   	thereby. If any provision is determined to be unenforceable, you
+   	agree to a modification of such provision to provide for
+   	enforcement of the provision's intent, to the extent permitted by
+   	applicable law. Failure of a party to enforce any provision of
+   	this AGREEMENT shall not constitute or be construed as a waiver
+   	of such provision or the right to enforce the provision. 
+   	
+   	2.
+
+   	The following provisions shall survive the expiration or early
+   	termination of this AGREEMENT: paragraphs 2., 3., 4. and 11. 
+   	
+   	14.
+
+   	ENTIRE AGREEMENT. 
+   	
+   	This AGREEMENT constitutes the entire AGREEMENT
+   	between you, and AUTHOR and supersedes any prior written or oral
+   	agreement concerning the SOFTWARE. AUTHOR is not bound by any
+   	action, statements, or any provisions made by anyone else. No
+   	modification or change in this AGREEMENT shall be valid or
+   	binding upon AUTHOR unless in writing. 
+   	
+   	15.
+
+   	APPLICABLE LAW. 
+   	
+   	This AGREEMENT shall be governed by the laws of
+   	Japan. You agree to jurisdiction and venue in the
+   	courts located in Tokyo, Japan for all claims, disputes and
+   	litigation arising under or related to this AGREEMENT. The export
+   	of this product is governed by U.K. export regulations.
+
+   	BY USING THE SOFTWARE YOU ACKNOWLEDGE THAT YOU HAVE READ AND
+   	UNDERSTOOD THIS AGREEMENT AND YOU AGREE TO BE BOUND BY THIS
+   	AGREEMENT'S TERMS AND CONDITIONS. YOU ALSO AGREE THAT THIS
+   	AGREEMENT IS THE COMPLETE AND EXCLUSIVE STATEMENT OF THE RIGHTS
+   	AND LIABILITIES OF THE PARTIES AND SUPERSEDES ALL PROPOSALS OR
+   	PRIOR AGREEMENTS, ORAL OR WRITTEN AND ANY OTHER COMMUNICATION
+   	BETWEEN THE PARTIES RELATING TO THE SUBJECT MATTER OF THIS
+   	AGREEMENT.
+
+   	Third-party modules are	bundled with the software and are subject to separate license
+   	terms that are not covered under this agreement. Any such
+   	separate license terms are provided in a text file accompanying
+   	this individual third-party module.
+
+   	If you do not agree with the terms and conditions of this
+   	AGREEMENT or do not understand any of them you should un-install
+   	and destroy your copy of the SOFTWARE immediately. 

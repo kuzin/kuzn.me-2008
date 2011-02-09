@@ -1,0 +1,421 @@
+/*
+THEME NAME: Corporate Sandbox
+THEME URI: http://www.rubiqube.com/corporate-sandbox/
+DESCRIPTION: This theme is based on <a href="http://www.plaintxt.org/themes/sandbox/">Sandbox</a>. It has minimum styling and graphics, making it ideal for corporate blogs
+VERSION: 1.1
+AUTHOR: <a href="http://www.rubiqube.com">Adrian Diaconescu</a>
+AUTHOR URI: http://www.rubiqube.com
+*/
+
+/* Architecture */
+html { }
+
+body {
+	background: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-seri;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 10px;
+	text-decoration: none;
+	color: #404040;
+}
+.arrow{
+width: 141px;
+height: 30px;
+background-image: url("images/arrow.jpg");
+background-position: top center;
+}
+.arrow:hover{
+background-position: bottom center;
+}
+
+#container {
+	border: 0;
+}
+
+#rssBtm {
+	width: 50px;
+	margin-top: 3px;
+margin-bottom: 10px;
+}
+
+#wrapper {
+        width: 440px;
+	margin: 20px 20px;
+	background: #FFFFFF;
+	padding: 0 10px;
+}
+
+#header {
+	height: 30px;
+        margin-top: 120px;
+}
+
+#container {
+	float: left;
+	width: 440px;
+}
+
+
+
+#sidebar {
+	margin: 20px -210px 30px 10px;
+	width: 180px;
+	float: right;
+	overflow: hidden;
+}
+
+#footer {
+        font-size: 9px;
+}
+
+/* General */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333333;
+	text-decoration: underline;
+}
+
+img {
+	border: 0;
+}
+
+.separator {
+	color: #CCCCCC;
+	margin: 0 5px;
+}
+
+.clear {
+	clear: both;
+	font-size: 0;
+	height: 0;
+}
+
+.meta-sep {
+	color: #CCCCCC;
+	margin: 0 5px;
+}
+
+.floater-left {
+	float: left;
+}
+
+.floater-right {
+	float: right;
+}
+
+#access {
+	overflow: hidden;
+	width: 0px;
+}
+
+#menu ul {
+	display: inline; /* Added to fix the double margin in IE6 */
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline; /* Added to fix the double margin in IE6 */
+	float: left;
+	margin-left: 10px;
+	padding: 15px 10px;
+}
+
+#blog-title {
+	font-size: 250%;
+	font-weight: normal;
+	margin: 40px 0 0 20px;
+}
+
+#blog-title a {
+	color: #333333;
+}
+
+#blog-description {
+	font-size: 120%;
+	font-weight: normal;
+	margin: 0 0 0 20px;
+}
+
+/* Content */
+.page-title {
+	margin-bottom: 15px;
+	font-weight: normal;
+	font-size: 160%;
+}
+
+.post {
+	margin-bottom: 15px;
+}
+
+.entry-title {
+	width: 450px;
+	font-weight: normal;
+	font-size: 160%;
+}
+
+.entry-comments {
+	float: right;
+margin-top: -40px;
+}
+
+.entry-title a {
+	color: #6699cc;
+}
+
+.more-link {
+	display: block;
+	margin: 10px 0 0 0;
+}
+
+.entry-comments {
+	float: right;
+	background: url(images/cbubble_left.gif) no-repeat top left;
+	padding: 3px 0 7px 7px;
+margin-top: -20px;
+}
+
+.entry-comments a {
+	background: url(images/cbubble_right.gif) no-repeat top right;
+        font-size: 12px;
+	padding: 3px 7px 7px 0;
+	color: #FFFFFF;
+}
+
+.entry-comments a:hover {
+	color: #FFFFFF;
+}
+
+.entry-meta {
+	color: #666666;
+	font-size: 90%;
+	margin-top: 10px;
+}
+
+
+.entry-footer {
+	color: #666666;
+	font-size: 90%;
+	border-bottom: 1px solid #EFEFEF;
+
+	padding: 5px 0;
+}
+
+.entry-footer span {
+	color: #CCCCCC;
+	margin: 0 5px;
+}
+
+.entry-subscribe {
+	padding: 5px 5px 5px 26px;
+	background: #FAFAFA url(images/rss.gif) no-repeat top left;
+	background-position: 6px 6px;
+}
+
+.entry-content {
+	margin-top: 15px;
+text-align: justify;
+}
+
+.entry-content p {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+.entry-content h2 {
+	font-size: 110%;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+.entry-content a {
+	text-decoration: underline;
+}
+
+.entry-content ul, .entry-content ol {
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+
+.entry-content ul li, .entry-content ol li {
+	line-height: 1.3;
+	margin-bottom: 5px;
+}
+
+/* Sidebar */
+
+
+/* Start: QBKL Styles - Added to make styling availble even if widgets are not used */
+
+#sidebar h2, #sidebar h3 {
+	font-size: 100%;
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 5px;
+	padding: 0 2px;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar ul li {
+	margin-bottom: 20px;
+}
+
+#sidebar ul li ul, #sidebar ul li ul li ul {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul li ul li {
+	padding: 4px 2px 4px 10px;
+	background: url(images/bullet.gif) no-repeat top left;
+	background-position: 0 7px;
+	margin: 0;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+#sidebar ul li ul li ul li {
+	padding: 4px 0 0 10px;
+	background: url(images/bullet.gif) no-repeat top left;
+	background-position: 0 7px;
+	margin: 0;
+	border-bottom: none;
+}
+
+/* End: QBKL Styles */
+
+#rss-links ul li {
+	background: url(images/rss.gif) no-repeat top left;
+	padding-left: 22px;
+	background-position: 1px 4px;
+}
+
+.textwidget p {
+	margin-bottom: 10px;
+}
+
+.textwidget a {
+	text-decoration: underline;
+}
+
+.widget_tag_cloud a {
+	text-transform: lowercase;	
+}
+
+#wp-calendar caption {
+	padding: 5px 0;
+	background: #FAFAFA;
+	margin-bottom: 5px;	
+}
+
+#wp-calendar td {
+	padding: 4px 6px;
+	color: #999999;
+}
+
+#wp-calendar td a {
+	font-weight: bold;
+}
+
+#wp-calendar #next {
+	text-align: right;
+}
+
+/* Comments */
+.comments {
+	margin-top: 30px;
+}
+
+.comments h3 {
+	font-size: 120%;
+	margin-bottom: 10px;
+	color: #333333;
+}
+
+.comments ol {
+	list-style: none;
+}
+
+.comments ol li {
+	padding: 10px;
+	background: #FFFFFF;
+	margin-top: 2px;
+}
+
+.comments ol li.alt {
+	background: #EEEEEE;
+}
+
+.comment-author {
+	font-weight: bold;
+}
+
+.comment-meta {
+	color: #666666;
+	margin-bottom: 5px;
+	font-size: 90%;
+}
+
+.unapproved {
+	font-style: italic;
+}
+
+#respond {
+	margin-top: 30px;
+}
+
+#respond h3 {
+	color: #333333;
+}
+	
+.formcontainer {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#comment-notes {
+	margin-bottom: 10px;
+}
+
+.form-label {
+	margin-bottom: 2px;
+}
+
+.form-input, .form-textarea {
+	margin-bottom: 10px;
+}
+
+.form-input input, .form-textarea textarea {
+	padding: 5px;
+	background: #FAFAFA;
+	border: 1px solid #CCCCCC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.form-textarea input {
+	width: 280px;
+}
+
+.form-textarea textarea {
+	width: 350px;
+}
+
+.form-input input:hover {
+	background-color: #FFFFFF;
+}
+
+.form-submit input {
+	padding: 2px 5px;
+}

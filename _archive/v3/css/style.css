@@ -1,0 +1,199 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* background-image:url(img/bg_tile.gif); */
+	background-repeat:repeat;
+	background-position:left;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 9px;
+	text-decoration: none;
+	line-height: 15px;
+	margin: 0px;
+	margin-left: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	padding: 0px;
+	background-color: #fff;
+}
+.blue {
+	color:#6699cc;
+}
+p#success {
+	padding: 3px 10px;
+	background: #92FFA5;
+	border: 2px solid #009218;
+	color: #009218;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+p#bademail, p#badserver {
+	padding: 3px 10px;
+	background: #FFA3A1;
+	border: 2px solid #D00D00;
+	color: #D00D00;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.start {
+	padding-left:307px;
+}
+.arrow {
+	position:absolute;
+	margin-left: 334px;
+	margin-top:50px;
+	z-index:0;
+}
+.expand {
+	margin-top:0px;
+}
+h1 {
+	padding-left: 307px;
+	font-size:7px;
+}
+#container {
+	float:left;
+	margin-right:14px;
+}
+.con {
+	width: 368px;
+	margin-top:-1px;
+}
+.con a:link {
+	text-decoration:none;
+}
+.con a:visited {
+	text-decoration:none;
+}
+.con a:active {
+	text-decoration:none;
+}
+	
+#left {
+	height: 120px;
+	position: fixed;
+	top: 142px;
+	display: inline;
+	margin-left: 390px;
+}
+#nav a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	text-decoration:none;
+}
+A:link {
+	text-decoration: none;
+	font-weight: normal;
+	color: #6699cc;
+	font-size: 9px;
+}
+A:visited {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #99ccff;
+	font-size: 9px;
+}
+A:active {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #99ccff;
+	font-size: 9px;
+}
+A:hover {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #FFF;
+	font-size: 9px;
+	background-color:#6699cc;
+}
+.container3 a {
+	border: solid 1px #ccc;
+	margin-top: auto;
+	float: left;
+}
+.container3 a:hover {
+	border: solid 1px #aaa;
+	border-color: #aaa;
+}
+#header {
+	margin-left:-13px;
+	width:auto;
+	height:auto;
+}
+.rule {
+	background-color:#ccc;
+	height: 1px;
+	width: 371px;
+}
+.rule2 {
+	background-color:#ccc;
+	margin-left: 168px;
+	height: 1px;
+	width: 200px;
+}
+.titler1 {
+	width:370px;
+	margin-top:5px;
+	z-index: 2;
+	text-align:justify;
+}
+.titler2 {
+	width:350px;
+	margin-top:5px;
+	z-index: 2;
+	text-align:justify;
+}
+.titler {
+	margin-left: -10px;
+	width:300px;
+}
+.mtlogo {
+	padding-top: 3px;
+}
+.image {
+	float: left;
+	padding: 12px 0 60px 12px;
+	position: relative;
+	width: 370px;
+	height: 97px;
+	text-decoration:none;
+}
+.image a span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 370px;
+	height: 97px;
+	background: url(images/background_hov.png) no-repeat top;
+	overflow: hidden;
+	text-decoration:none;
+}
+.image a:hover span {
+	background-position: bottom;
+	text-decoration:none;
+}
+.image a:visited span {
+	text-decoration:none;
+}
+#footer {
+	height: 14px;
+}
+#rssBtm {
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin-top: 3px;
+	margin-top: 22px;
+	margin-bottom: 40px;
+}
+#footer p {
+	color: #b7b7b7;
+	line-height: 11px;
+	float:left;
+	margin-left: 6px;
+	margin-top: 20px;
+}

@@ -1,0 +1,631 @@
+
+/* ------------------------------------ */
+/* Fun, Fun CSS for the whole family!   */
+/* Disclamer: Constant work in progress */
+/* ------------------------------------ */
+
+
+/* ------------------------------------ */
+/* Gimme that NAVBAR                    */
+/* ------------------------------------ */
+
+div#navbar ul {
+	font-family: 'LeagueGothicRegular';
+	width: 100%;
+	margin-top: 18px;
+	text-align: center;
+	
+}
+
+div#navbar ul li {
+	display: inline;
+	padding-left: 15px;
+	font-size: 20px;
+	text-transform: uppercase;
+} 
+
+div#navbar ul li a {
+	text-decoration: none;
+	color: rgb(75,75,75);
+	cursor: pointer;
+}
+
+
+div#navbar ul li a:hover {
+	color: #96a7b4;
+	margin-top: 4px;
+	text-decoration: none;
+}
+
+div#navbar_arrow {
+	z-index: 99;
+	left: 0;
+	top: 50px;
+	width: 100%;
+	margin: 0 auto !important;
+	display: block;
+	height: 15px;
+	background: url(../img/navbar-arrow.png) repeat-x;
+	position: fixed;
+}
+
+/* ------------------------------------ */
+/* SECTIONS, better than just one       */
+/* ------------------------------------ */
+
+div#header {
+	background: url(../img/bg-header.png) repeat;
+	height: 228px;
+	border-bottom: 1px solid rgb(206,206,206);
+	padding-top: 50px;
+}
+
+div#navbar {
+	background: rgb(255,255,255);
+	height: 50px;
+	position: fixed;
+	border-bottom: 1px solid rgb(206,206,206);
+	z-index: 99;
+}
+
+div#sub-header {
+	background: url(../img/bg-subhead.png) repeat;
+	height: 80px;
+	border-bottom: 1px solid rgb(206,206,206);
+}
+
+div#work {
+	background: url(../img/bg-container-1.png) repeat;
+	border-bottom: 1px solid rgb(206,206,206);
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+div#capabilities,
+div#contact,
+div#about {
+	background: url(../img/bg-container-1.png) repeat;
+}
+
+/* div#capabilities h2,
+div#contact h2 {
+	color: #fff;
+}
+
+div#capabilities hr,
+div#contact hr {
+	border-top: #999 solid 1px;
+	border-bottom: #bbb solid 1px;
+}
+*/
+
+div#capabilities,
+div#about,
+div#contact {
+	
+	border-bottom: 1px solid rgb(206,206,206);
+	padding-bottom: 20px;
+	padding-top: 20px;
+	z-index: 1;
+	
+}
+
+.divider {
+	height: 10px;
+	border-bottom: 1px solid rgb(206,206,206);
+	background: url(../img/bg-subhead.png) repeat;
+}
+
+.left-writeup ul.stats {
+	list-style: none;
+	font: 12px Junction;
+	color: #555;
+	margin-top: 7px;
+	margin-bottom: 10px;
+	border-top: 1px dashed #aaa;
+	padding-top: 13px;
+}
+
+.left-writeup .stats li {
+	margin-bottom: 10px;
+	border-bottom: 1px dashed #aaa;
+	padding-bottom: 6px;
+}
+
+.left-writeup .stats li span {
+	display: inline-block;
+	width: 90px;
+	font: 12px Junction;
+	font-weight: bold;
+}
+
+div#push {
+	height: 508px;
+	width: 100%;
+	background: url(../img/bg-subhead.png) repeat;
+	
+}
+
+
+/* ------------------------------------ */
+/* IMAGES that say at least one word    */
+/* ------------------------------------ */
+
+div#header-img {
+	background: url(../img/header-img.png) no-repeat center;
+	position: relative;
+	top: 17px;
+	margin: 0 auto;
+	width: 960px;
+	height: 228px;
+	z-index: 1;
+}
+
+div#scissors {
+	background: url(../img/scissors.png) no-repeat left top;
+	width: 26px;
+	height: 15px;
+	position: relative;
+	top: 197px;
+}
+
+/* ------------------------------------ */
+/* Oh HEADERS, cant you be better(s)    */
+/* ------------------------------------ */
+
+h1 {
+	font-family: 'LeagueGothicRegular';
+	text-transform: uppercase;
+	font-style: normal;
+	font-size: 30px;
+	color: rgb(68,68,68);
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+
+h1 span {
+	color: #80809b;
+}
+
+h2 {
+	font-family: 'LeagueGothicRegular';
+	text-transform: uppercase;
+	font-size: 32px;
+	color: rgb(80,80,80);
+} 
+
+p.tagline {
+	font-family: 'Adobe Caslon Pro', Garamond, 'Times New Roman';
+	font-style: italic;
+	font-weight: 600;
+	color: #aaa;
+	text-align: center;
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+	font-size: 15px;
+	padding-top: 15px;
+	padding-bottom: 6px;
+	
+}
+
+/* ------------------------------------ */
+/* RIGHT COL, float for me baby         */
+/* ------------------------------------ */
+
+div.left-writeup {
+	width: 290px;
+	float: left;
+}
+
+div.left-writeup p,
+div.right-content p {
+	font-family: 'Junction';
+	font-size: 12px;
+	line-height: 24px;
+	color: rgb(80,80,80);
+}
+
+div.right-content p {
+	margin-bottom: 10px;
+}
+
+
+
+div.left-writeup p.call-to-action {
+	font-family: 'Adobe Caslon Pro', Garamond, 'Times New Roman';
+	font-style: italic;
+	font-weight: 600;
+	font-size: 16px;
+	display: block;
+	margin-top: 13px;
+	margin-bottom: 5px;
+}
+
+div.left-writeup select {
+	border: 1px solid #aaa;
+	font-size: 14px;
+}
+
+hr {
+
+	padding: 0;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	border-top: rgb(206,206,206) 1px solid;
+	border-bottom: rgb(255,255,255) 1px solid;
+	border-left: none;
+	border-right: none;
+}
+
+div.right-content {
+	padding-left: 310px;
+}
+
+p strong a:link,
+p strong a:visited {
+	font-weight: bold;
+	font-size: 12px;
+	color: #333;
+	text-decoration: none;
+}
+
+p strong a:hover {
+	text-decoration: underline;
+}
+
+p a {
+	color: #333;
+	text-decoration: none;
+}
+
+div.left-content-float {
+	float: left;
+	text-align: center;
+	width: 120px;
+}
+
+div.left-content-right {
+	padding-left: 160px;
+}
+
+div.social-media {
+	background: url(../img/bg-sm.png) repeat;
+	display: block;
+	border: 1px solid #ccc;
+	padding: 8px;
+	width: 120px;
+	margin-top: 5px;
+}
+
+
+/* ------------------------------------ */
+/* THUMBNAILS, really not in the footer */
+/* ------------------------------------ */
+
+	.webwork,
+	.logowork,
+	.sketchwork,
+	.printwork {
+		width: 203px;
+		height: 170px;
+		display: inline-block;
+		border: 5px solid white;
+		-moz-box-shadow: 1px 1px 4px #aaa;
+		-webkit-box-shadow: 1px 1px 4px #aaa;
+		box-shadow: 1px 1px 4px #aaa;
+	}
+	
+	.caption {
+		float: left;
+		z-index: 20;
+		width: auto;
+		background: url(../img/bg-caption.png) repeat;
+		position: absolute;
+		width: 203px;
+		height: 60px;
+		margin-top: 110px;
+	}
+	
+	.webwork img,
+	.logowork img,
+	.printwork img,
+	.sketchwork img {
+		float: left;
+		z-index: 5;
+		
+		
+	}
+	
+/* ------------------------------------ */
+/* Not your average GRAPHS              */
+/* ------------------------------------ */
+
+.graph-container {
+	display: block;
+}
+
+.check {
+	float: right;
+	position: relative;
+	top: -3px;
+	right: -2px;
+	width: 16px;
+	height: 16px;
+	display: block;
+	background: url(../img/checkmark.png) no-repeat top left;
+}
+
+.graph {
+	padding: 7px;
+	font-family: 'LeagueGothicRegular';
+	text-transform: uppercase;
+	color: #555;
+	font-size: 18px;
+	padding-bottom: 3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius-: 5px;
+	margin-bottom: 10px;
+	margin-right: 4px;
+	border: 1px solid #bbb;
+	width: 140px !important;
+	text-align: left;
+	display: inline-block;
+}
+
+.last-col {
+	margin-right: 0 !important;
+}
+
+.last-row {
+	margin-bottom: 0 !important;
+}
+
+.graph:hover {
+	-webkit-box-shadow: 0px 0px 5px #80809b;
+	-moz-box-shadow: 0px 0px 5px #80809b;
+	box-shadow: 0px 0px 5px #80809b;
+}
+
+	.value-1 { background: #ddd; }
+	.value-2 { background: #ccc; }
+	.value-3 { background: #eee; }
+	.value-4 { background: #bbb; }
+	.value-5 { background: #bbb; }
+	
+/* ------------------------------------ */
+/* Oh CAPTIONS my captions              */
+/* ------------------------------------ */
+
+.caption .left {
+	float: left;
+	padding-top: 15px;
+	padding-left: 8px;
+}
+
+.caption .right {
+	float: right;
+	margin-right: 8px;
+	margin-top: 8px;
+	text-align: right;
+}
+
+.caption h3 {
+	color: #fffeff;
+	font: 17px Junction;
+	font-weight: normal;
+}
+
+.caption span {
+	color: #8b8b8b;
+	font: 10px Junction;
+	padding-top: 8px;
+	display: block;
+}
+
+.caption a:link,
+.caption a:visited {
+	display: block;
+	text-decoration: none;
+	font: 10px Junction;
+	color: #a0a0a0;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+.caption a:hover {
+	font-style: normal;
+	font-weight: normal;
+	color: #dfdfdf;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.caption span.date {
+	font: 19px LeagueGothicRegular;
+}
+
+/* ------------------------------------ */
+/* Funky FOOTER                         */
+/* ------------------------------------ */
+
+div#footer {
+	text-align: left;
+	font: 10px Junction;
+	padding-top: 20px;
+	color: #999;
+	text-align: center;
+}
+
+div#footer a:link,
+div#footer a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+div#footer a:hover {
+	color: rgb(115,146,187);
+	text-decoration: underline;
+}
+
+div#push {
+	
+}
+
+
+/* ------------------------------------ */
+/* Tasty TWEETS                         */
+/* ------------------------------------ */
+
+div#tweets ul {
+	color: #5b5b5b;
+	list-style-type: none;
+	font: 13px Junction;
+}
+
+div#tweets small {
+	display: block;
+	margin-top: 5px;
+}
+
+div#tweet-container {
+	background: url(../img/bg-sm.png) repeat;
+	border: 1px solid #ccc;
+	padding: 14px 10px 10px;
+	margin-bottom: -21px;
+	margin-top: 10px;
+	z-index: 1;
+}
+
+div#twitter-bird {
+	width: 52px;
+	height: 39px;
+	display: block;
+	position: relative;
+	float: right;
+	background: url(../img/icon-twitter-bird.png) no-repeat;
+	z-index: 10;
+	right: 5px;
+	top: 5px;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: 22px LeagueGothicRegular;
+	text-transform: uppercase;
+}
+
+
+/* ------------------------------------ */
+/* Form those FORMS                     */
+/* ------------------------------------ */
+
+body#submit-wrapper {
+	background: url(../img/bg-container-2.png) repeat;
+}
+
+div#submit-box {
+	width: 350px;
+	margin: 120px auto 0;
+	text-align: center;
+	font: 13px Junction;
+	color: #555;
+	line-height: 25px;
+	background: url(../img/bg-sm.png) repeat;
+	padding: 13px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: 0 0 10px #555;
+}
+
+div#submit-box h2 {
+	margin-top: 14px;
+}
+
+div#submit-box p {
+	margin-top: 10px;
+}
+
+div#submit-box hr {
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #ddd;
+	margin-top: 8px;
+}
+
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	font: 14px Junction;
+	font-weight: normal;
+	color: #555;
+	padding-bottom: 6px;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+input#name,
+input#email {
+	font: 13px Junction;
+	color: #666;
+	width: 100%;
+	display: block;
+	padding: 6px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border: 1px solid #ccc;
+	background: #efefef;
+}
+
+input#name:focus,
+input#email:focus,
+textarea:focus {
+	background: #fff;
+}
+
+span.required {
+	color: #f85548;
+	font: 12px Junction;
+}
+
+textarea {
+	display: block;
+	font: 13px Junction;
+	color:  #666;
+	width: 100%;
+	padding: 7px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border: 1px solid #ccc;
+	background: #efefef;
+}
+
+.button {
+	background: #fff;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 8px;
+	margin-top: 8px;
+	padding: 7px;
+}
+
+.button:hover {
+	background: #ddd;
+}
+
+label.error {
+	color: red;
+	display: block;
+	background: url(../img/errorIcon-sm.png) no-repeat left center;
+	padding-left: 16px;
+	font-size: 11px;
+}
