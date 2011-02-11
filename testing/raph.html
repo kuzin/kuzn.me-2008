@@ -5,17 +5,37 @@
     <title>Raph Testing</title>
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Master Styles" charset="utf-8">
     <style type="text/css" media="screen">
-        #canvas {
+        #canvas,
+        #canvas2 {
             width:          300px;
             height:         300px;
             background:     #eeeeee;
             cursor:         pointer;
+            position:       relative;
+            float:          left;
+            z-index:        1;
         }
+        #left_hover, #right_hover {
+            width: 150px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+        }
+        #right_hover {
+            left: 150px;
+        }
+
     </style>
 </head>
 <body id="raph" onload="">
     <div id="canvas" class="active">
 
+    </div>
+
+    <div id="canvas2">
+        <div id="left_hover"></div>
+        <div id="right_hover"></div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
@@ -40,6 +60,21 @@
                 $(this).addClass('active');
             }
         });
+        var paper = Raphael('canvas2', 300, 300);
+        var img3 = paper.image('city.jpg', -1000, 0, 2000, 300);
+            $('#left_hover').hover(function(){
+                img3.animate({x: -1600}, 5000, '>');
+            },
+            function(){
+                img3.stop();
+            });
+            $('#right_hover').hover(function(){
+                img3.animate({x: -400}, 5000, '>');
+            },
+            function(){
+                img3.stop();
+            });
+
 </script>
 </body>
 </html>
