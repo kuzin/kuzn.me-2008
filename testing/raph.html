@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Raph Testing</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Master Styles" charset="utf-8">
+    <style type="text/css" media="screen">
+        #canvas {
+            width:          300px;
+            height:         300px;
+            background:     #eeeeee;
+            cursor:         pointer;
+        }
+    </style>
+</head>
+<body id="raph" onload="">
+    <div id="canvas" class="active">
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="raphael-min.js" type="text/javascript" charset="utf-8"></script>
+    <script type = "text/javascript" charset = "utf-8" >
+        var canvas = Raphael('canvas', 300, 300),
+            st = canvas.set(),
+            img = canvas.image('party.png', 0, 0, 300, 300),
+            img2 = canvas.image('party2.png', 0, 0, 300, 300).attr({opacity: 0}),
+            overlay = canvas.rect(0, 0, 300, 300).attr({fill : 'black', 'stroke-opacity' : 0 }),
+            t = canvas.text('50%','50%','Click me!', 30).attr({fill:'#fff'});
+        $('#canvas').click(function(){
+            if ($(this).hasClass('active')) {
+                overlay.animate({'fill-opacity': 0}, 2000, '>');
+                img2.animate({opacity: 0}, 3000, '>');
+                t.animate({'fill-opacity': 0}, 2000, '>');
+                $(this).removeClass('active');
+            } else {
+                overlay.animate({'fill-opacity': 1}, 2000, '<');
+                t.animate({'fill-opacity': 1}, 2000, '<');
+                img2.animate({opacity: 1}, 2000, '>');
+                $(this).addClass('active');
+            }
+        });
+</script>
+</body>
+</html>
